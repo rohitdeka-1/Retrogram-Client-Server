@@ -38,6 +38,7 @@ const VerifyEmail = () => {
     <div>
       <h1>Email Verification</h1>
       <p style={{ color: isError ? "red" : "green" }}>{message}</p>
+      <div className=" text-3xl "><h1>Rohit deka rhd</h1></div>
     </div>
   );
 };

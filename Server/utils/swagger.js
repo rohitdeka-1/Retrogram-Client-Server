@@ -7,7 +7,7 @@ const options = {
     info: {
       title: "Instagram Clone API",
       version: "1.0.0",
-      description: "API documentation for the Instagram Clone project",
+      description: "API documentation for the Retrogram",
     },
     servers: [
       {
