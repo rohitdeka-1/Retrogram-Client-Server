@@ -3,6 +3,7 @@ import sharp from "sharp";
 import cloudinary from "../utils/cloudinary";
 import { Post } from "../models/post.model";
 import { User } from "../models/user.model";
+import { Comment } from "../models/comment.model";
 
 export const addNewPost = async (req, res) => {
   try {

@@ -5,4 +5,4 @@ const conversationalSchema = mongoose.Schema({
   messages: [{ types: mongoose.Schema.Types.ObjectId, ref: "Message" }],
 });
 
-export default conversation = mongoose.model('Conversation',conversationalSchema);
+export const Conversation = mongoose.model('Conversation',conversationalSchema);
